@@ -5,18 +5,41 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+
+ko:
+  languageCode: ko
+  contentDir: content/ko
+  title: 한국어 웹사이트 제목
+  params:
+    description: 한국어로 된 사이트 설명...
+  menu:
+    main:
+      - name: 소개
+        url: /
+        weight: 10
+      - name: 경험
+        url: experience/
+        weight: 20
+      - identifier: projects
+        name: 프로젝트
+        weight: 30
+      - name: 백엔드
+        parent: projects
+        url: backend-projects/
+        weight: 31
+      - name: 프론트엔드
+        parent: projects
+        url: frontend-projects/
+        weight: 32
+      - name: 기타
+        parent: projects
+        url: other-projects/
+        weight: 33
+      - name: 기술
+        url: skills/
+        weight: 40
+      - name: 연락
+        url: contact/
+        weight: 50

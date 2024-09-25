@@ -1,0 +1,34 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo specific files
+/hugo_stats.json
+/.hugo_build.lock
+
+# Go specific files
+go.sum
+
+# Temporary and backup files
+*.tmp
+*.swp
+*.bak
+*~
+
+# Netlify config and log files
+netlify.toml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+
+# IDE/Editor specific files
+.vscode/
+.idea/

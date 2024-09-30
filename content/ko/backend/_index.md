@@ -1,6 +1,5 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'backends'
 type: landing
 
 design:
@@ -11,13 +10,14 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: 진행한 백엔드 프로젝트들
+      text: ''
       filters:
         folders:
-          - project
+          - backend
     design:
       view: article-grid
       fill_image: false
       columns: 3
 ---
+

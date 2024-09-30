@@ -59,17 +59,17 @@ sections:
       text: ""
       filters:
         folders:
-          - major_project
+          - studying
         exclude_featured: false
     design:
       view: citation
   - block: collection
     id: talks
     content:
-      title: 공부한 라이브러리 및 기술
+      title: 진행중인 프로젝트
       filters:
         folders:
-          - event
+          - progressing
     design:
       view: article-grid
       columns: 1

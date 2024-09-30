@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Major Project
 cms_exclude: true
 
 # View.

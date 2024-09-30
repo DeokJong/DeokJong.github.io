@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: '예시 컨퍼런스'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -25,16 +25,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
+publication: In *발행기관*
 publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 한글 설명
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - 대형 언어 모델
 
 # Display this page in the Featured widget?
 featured: true
@@ -77,11 +77,11 @@ slides: example
 ---
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+방문자가 참조 관리 소프트웨어로 출판물 메타데이터를 가져갈 수 있는 기능을 데모하려면 위의 _인용_ 버튼을 클릭하세요.
 {{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
+마크다운으로 슬라이드를 작성하세요 - 예시를 확인하려면 _슬라이드_ 버튼을 클릭하세요.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+출판물의 **전체 텍스트** 또는 **추가 메모**를 여기에 추가하세요. [코드, 수식 및 이미지](https://docs.hugoblox.com/content/writing-markdown-latex/)와 같은 풍부한 서식을 사용할 수 있습니다.

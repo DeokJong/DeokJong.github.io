@@ -1,125 +1,89 @@
 ---
-# Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# Display Name
+title: DeokJong Jin
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: DeokJong
+last_name: Jin
 
 # Status emoji
 status:
   icon: ☕️
 
-# Is this the primary user of the site?
+# Is this the primary user of this site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
+# Highlight this author in the authors list? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Chief Scientist
+# Role/Position/Tagline
+role: Senior Year University Student
 
-# Organizations/Affiliations to display in Biography blox
+# Organization/Institution to display in biography block
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: JBNU
+    url: https://www.jbnu.ac.kr/kor/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# If you need different icons, download the appropriate SVG icon to `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: brands/kakaotalk
+    url: https://open.kakao.com/o/sr6MoMRg
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://github.com/DeokJong
 
+# Interests
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - DevOps
+  - Backend
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Attending Jeonbuk National University
+    institution: Jeonbuk National University
+    date_start: 2019-03-02
+    date_end: 2025-02-10
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      I enrolled in the Molecular Biology department at Jeonbuk National University. Later, in my third year, I transferred to the School of Computer Artificial Intelligence, where I am currently studying.
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Work Experience
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Java Quiz Project
+    company_name: ''
+    company_url: 'https://github.com/niraaah/JavaQuizProject'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-06-08
+    date_end: 2023-07-12 
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Key learnings:
+      - Deciding project structure
+      - Object-oriented programming principles
+      - Multithreading techniques
   - position: Backend Software Engineer
-    company_name: X
+    company_name: ''
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      Responsibilities include:
+      Key responsibilities:
       - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# You can add your own SVG icons in the `assets/media/icons/` folder.
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: React
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: react
+      - name: Spring Boot
         description: ''
         percent: 100
-        icon: chart-bar
+        icon: springboot
       - name: SQL
         description: ''
         percent: 40
@@ -128,59 +92,62 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Running
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Gaming
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: game
+      - name: Cocktails
         description: ''
-        percent: 80
-        icon: camera
+        percent: 100
+        icon: cocktail
 
+# Languages
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
+  - name: Python
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: TypeScript
+    percent: 75
+  - name: Java
+    percent: 75
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
+# You can add/remove awards below.
+# Only `title`, `awarder`, and `date` are required.
+# Multi-line `summary` fields can be written using YAML's `|` or `|2-` prefixes, indented 2 spaces.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: No awards yet.
+  # - title: Blockchain Fundamentals
+  #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #   date: '2023-07-01'
+  #   awarder: edX
+  #   icon: edx
+  #   summary: |
+  #     Key learnings:
+  #     - Designed blockchain solutions
+  #     - Gained a deep understanding of Bitcoin mechanisms
+  #     - Learned how to apply, attack, and break down real-world use cases of Bitcoin, Ethereum, smart contracts, and Dapps, as well as explored alternatives to Bitcoin’s proof-of-work algorithm.
+  # - title: 'Object-Oriented Programming in R'
+  #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #   certificate_url: https://www.datacamp.com
+  #   date: '2023-01-21'
+  #   awarder: datacamp
+  #   icon: datacamp
+  #   summary: |
+  #     This intermediate course introduces OOP using S3 and R6 systems. S3 is useful for everyday R programming, while R6 is particularly helpful for working with web APIs and building GUIs.
 ---
 
-## About Me
+## Introduction
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is DeokJong Jin, currently a senior year student at Jeonbuk National University in the School of Computer Artificial Intelligence. I have experience working on both backend and frontend projects, and I’m currently building my skills as a DevOps developer.
+
+I have worked on the following projects:
+
+1. A simple game project to learn Java and object-oriented programming.
+2. A multi-PC monitoring system.
+3. The ONE Fitness CRM project.
+
+Through these projects, I gained experience in web design using React and connecting APIs. Additionally, I built a server using FastAPI and developed RESTful APIs.

@@ -6,6 +6,35 @@
 en:
   languageCode: en-us
   contentDir: content/en
+  menu:
+    main:
+    - name: Introduction
+      url: /
+      weight: 10
+    - name: Experience
+      url: experience/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      weight: 30
+    - name: Backend
+      parent: projects
+      url: backend-projects/
+      weight: 31
+    - name: Frontend
+      parent: projects
+      url: frontend-projects/
+      weight: 32
+    - name: Other
+      parent: projects
+      url: other-projects/
+      weight: 33
+    - name: Skills
+      url: skills/
+      weight: 40
+    - name: Contact
+      url: contact/
+      weight: 50
 
 
 ko:

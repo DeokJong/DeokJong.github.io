@@ -19,15 +19,15 @@ en:
       weight: 30
     - name: Backend
       parent: projects
-      url: backend-projects/
+      url: backend/
       weight: 31
     - name: Frontend
       parent: projects
-      url: frontend-projects/
+      url: frontend/
       weight: 32
     - name: Other
       parent: projects
-      url: other-projects/
+      url: other/
       weight: 33
     - name: Skills
       url: skills/
@@ -56,15 +56,15 @@ ko:
         weight: 30
       - name: 백엔드
         parent: projects
-        url: backend-projects/
+        url: backend/
         weight: 31
       - name: 프론트엔드
         parent: projects
-        url: frontend-projects/
+        url: frontend/
         weight: 32
       - name: 기타
         parent: projects
-        url: other-projects/
+        url: other/
         weight: 33
       - name: 기술
         url: skills/

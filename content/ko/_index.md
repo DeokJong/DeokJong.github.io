@@ -52,7 +52,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: collection
     content:
       title: 공부중인 라이브러리 및 기술
@@ -62,7 +62,8 @@ sections:
           - studying
         exclude_featured: false
     design:
-      view: citation
+      view: article-grid
+      columns: 3
   - block: collection
     id: talks
     content:

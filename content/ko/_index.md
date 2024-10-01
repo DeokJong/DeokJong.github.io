@@ -102,24 +102,24 @@ sections:
   #     # 간격 축소
   #     spacing:
   #       padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # 이 섹션은 Hugo Blox Builder 데모 사이트에서만 표시됨
-    content:
-      title: 👉 이렇게 학술 웹사이트를 만들어보세요
-      text: |-
-        이 사이트는 250,000명 이상의 학자들이 신뢰하는 무료 Hugo 기반 오픈 소스 웹사이트 빌더인 Hugo Blox Builder로 생성되었습니다.
+  # - block: cta-card
+  #   demo: true # 이 섹션은 Hugo Blox Builder 데모 사이트에서만 표시됨
+  #   content:
+  #     title: 👉 이렇게 학술 웹사이트를 만들어보세요
+  #     text: |-
+  #       이 사이트는 250,000명 이상의 학자들이 신뢰하는 무료 Hugo 기반 오픈 소스 웹사이트 빌더인 Hugo Blox Builder로 생성되었습니다.
 
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">GitHub에서 Hugo Blox Builder에 Star 달기</a>
+  #       <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">GitHub에서 Hugo Blox Builder에 Star 달기</a>
 
-        블록을 사용하여 모든 것을 쉽게 빌드할 수 있습니다 - 코딩 불필요!
+  #       블록을 사용하여 모든 것을 쉽게 빌드할 수 있습니다 - 코딩 불필요!
         
-        랜딩 페이지, 학습 자료, 학술 이력서, 컨퍼런스, 기술 블로그 등 다양한 사이트를 구축할 수 있습니다.
-      button:
-        text: 시작하기
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # 카드 배경 색상 (CSS 클래스)
-        css_class: "bg-primary-700"
-        css_style: ""
+  #       랜딩 페이지, 학습 자료, 학술 이력서, 컨퍼런스, 기술 블로그 등 다양한 사이트를 구축할 수 있습니다.
+  #     button:
+  #       text: 시작하기
+  #       url: https://hugoblox.com/templates/
+  #   design:
+  #     card:
+  #       # 카드 배경 색상 (CSS 클래스)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---

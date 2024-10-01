@@ -65,7 +65,6 @@ sections:
       view: article-grid
       columns: 3
   - block: collection
-    id: talks
     content:
       title: 진행중인 프로젝트
       filters:
@@ -73,7 +72,7 @@ sections:
           - progressing
     design:
       view: article-grid
-      columns: 1
+      columns: 3
   # - block: collection
   #   id: news
   #   content:

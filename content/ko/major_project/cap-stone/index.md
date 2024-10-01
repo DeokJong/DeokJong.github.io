@@ -10,7 +10,7 @@ doi: ''
 publishDate: '2017-01-01T00:00:00Z'
 
 # 요약
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 해당 프로젝트는 전북대학교 2024학년도 1학기 캡스톤 프로젝트를 진행하면서 제작되었습니다. 다중 모니터링 시스템을 만드는 프로젝트입니다.
 
 tags:
   - React

@@ -30,18 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  # - block: markdown
-  #   content:
-  #     title: '📚 나의 연구'
-  #     subtitle: ''
-  #     text: |-
-  #       이 영역을 사용하여 귀하의 목표를 설명하세요. 저는 DeepMind의 Moonshot 팀에서 연구 과학자로 일하고 있습니다. 기계 학습, 딥러닝 및 문샷에 대해 블로그를 운영하고 있습니다.
 
-  #       저는 질적 및 양적 방법을 모두 적용하여 과학과 기술이 경제에 미치는 역할을 포괄적으로 조사합니다.
-        
-  #       협업을 원하시면 언제든지 연락 주세요 😃
-  #   design:
-  #     columns: '1'
   - block: collection
     id: papers
     content:

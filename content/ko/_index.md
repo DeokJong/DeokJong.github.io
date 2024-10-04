@@ -73,7 +73,7 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: slider/slider1.jpg
             filters:
               brightness: 0.7
           position: right
@@ -83,7 +83,7 @@ sections:
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: slider/slider2.jpg
             filters:
               brightness: 0.7
           position: center
@@ -92,7 +92,7 @@ sections:
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: slider/slider3.jpg
             filters:
               brightness: 0.5
           position: center

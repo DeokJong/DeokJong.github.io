@@ -14,7 +14,7 @@ sections:
       text: ''
       filters:
         folders:
-          - backend
+          - frontend
     design:
       view: article-grid
       fill_image: false

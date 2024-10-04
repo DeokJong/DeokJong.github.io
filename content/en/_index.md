@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # 배경 이미지 추가 (assets/media/ 폴더 내 이미지)
-          filename: stacked-peaks.svg
+          filename: stacked-peaks.webp
           filters:
             brightness: 1.0
           size: cover

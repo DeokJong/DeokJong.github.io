@@ -52,7 +52,7 @@ sections:
           - studying
         exclude_featured: false
     design:
-      view: article-grid
+      view: card
       columns: 3
   
   - block: collection

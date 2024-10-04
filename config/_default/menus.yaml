@@ -1,0 +1,31 @@
+# default menu
+main:
+  - name: 소개
+    url: /
+    weight: 10
+  - name: 경험
+    url: experience/
+    weight: 20
+  - identifier: projects
+    name: 프로젝트
+    weight: 30
+  - name: 백엔드
+    parent: projects
+    url: backend/
+    weight: 31
+  - name: 프론트엔드
+    parent: projects
+    url: frontend/
+    weight: 32
+  - name: 기타
+    parent: projects
+    url: other/
+    weight: 33
+  - name: 기술
+    url: skills/
+    weight: 40
+  - name: 연락
+    url: contact/
+    weight: 50
+
+

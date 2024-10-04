@@ -1,0 +1,12 @@
+<div id="map" style="width:100%;height:350px;"></div>
+
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=43daa869365f2687cdd8f64f2a4c8ec4"></script>
+<script>
+  var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = {
+      center: new kakao.maps.LatLng(35.84602227730059, 127.13443303073255), // 지도의 중심좌표
+      level: 3 // 지도의 확대 레벨
+    };
+  // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+  var map = new kakao.maps.Map(mapContainer, mapOption); 
+</script>

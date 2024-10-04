@@ -115,7 +115,7 @@ languages:
   - name: TypeScript
     percent: 75
   - name: Java
-    precent: 75
+    percent: 50
 
 # 수상 내역 
 #   아래에서 수상 내역을 추가/제거할 수 있습니다.

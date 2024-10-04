@@ -32,3 +32,4 @@ vendor/
 # IDE/Editor specific files
 .vscode/
 .idea/
+jsconfig.json

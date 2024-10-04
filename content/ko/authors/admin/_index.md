@@ -61,18 +61,28 @@ work:
       - 프로젝트 구조 결정
       - 객체 지향의 방식
       - 스레드 사용 방식
-      - 
-  - position: 백엔드 소프트웨어 엔지니어
+  - position: 캡스톤 프로젝트
     company_name: ''
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-03-02
+    date_end: 2020-06-06
     summary: |
       주요 업무:
-      - 인프라를 새로운 데이터 센터로 마이그레이션
-      - 로렘 입숨 돌로르 시트 아메트, 콘셉터 아디피싱 엘리트
-      - 로렘 입숨 돌로르 시트 아메트, 콘셉터 아디피싱 엘리트
+      - React 사용법
+      - RestAPI를 React에서 적용하는법
+  - position: One Fitness 프로젝트
+    company_name: ''
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-07-01
+    date_end: 2024-08-31
+    summary: |
+      주요 업무:
+      - TanStack Router를 이용한 디렉터리 기준 라우팅
+      - Docker Container 제작
+      - TanStack Query를 이용해 데이터 관리
+
 
 # 기술
 # `assets/media/icons/`에 자신의 SVG 아이콘 추가 가능
@@ -115,7 +125,7 @@ languages:
   - name: TypeScript
     percent: 75
   - name: Java
-    precent: 75
+    percent: 50
 
 # 수상 내역 
 #   아래에서 수상 내역을 추가/제거할 수 있습니다.

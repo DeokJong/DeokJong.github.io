@@ -40,7 +40,7 @@ en:
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: 한국어 웹사이트 제목
+  title: 진덕종 CV
   params:
     description: 한국어로 된 사이트 설명...
   menu:

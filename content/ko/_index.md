@@ -75,7 +75,7 @@ sections:
           content_html: "<p>세 번째 슬라이드 설명</p>"
         - image: /media/slider/slider1.jpg
           content_html: "<p>네 번째 슬라이드 설명</p>"
-      duration: 3000  
+      duration: 3000000  
       items: 1        
       height: 500   
       unit: px       

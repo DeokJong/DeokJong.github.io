@@ -1,5 +1,5 @@
 ---
-title: 'backends'
+title: 'other'
 type: landing
 
 design:
@@ -10,11 +10,11 @@ design:
 sections:
   - block: collection
     content:
-      title: Backend Projects I've Worked On
+      title: Other Projects I've Worked On
       text: ''
       filters:
         folders:
-          - backend
+          - other
     design:
       view: article-grid
       fill_image: false

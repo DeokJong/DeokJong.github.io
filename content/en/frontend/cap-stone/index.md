@@ -26,7 +26,7 @@ image:
 ---
 
 # Multi-PC Environment Monitoring and Remote Chat Technology
-- This project was created for the 2024 Chonbuk National University Capstone Project.
+- This project was created for the 2024 Capstone Project at Chonbuk National University.
 
 ## Introduction
 The company that requested this project was facing the following issues:
@@ -55,4 +55,21 @@ To address this, we divided the project into the following roles:
 ## Feature Summary
 - Web Browser (admin-page)
  1. Retrieves the HW information, SDK information, and RESOURCE information of the client.
- 2. Obtains the PID of the programs running on the client based on the RESOURCE information and forcibly terminates those programs u
+ 2. Obtains the PID of the programs running on the client based on the RESOURCE information and forcibly terminates those programs using the PID.
+ 3. Captures and views the current screen of the client.
+- Server (backend)
+ 1. Stores the HW information, SDK information, and RESOURCE information of the client.
+ 2. Stores the screenshots sent by the client.
+ 3. Delivers commands from the admin-page to the client.
+ 4. Provides the admin-page with client information for viewing.
+- Client (collector)
+ 1. Collects and sends the HW information, SDK information, and RESOURCE information of the installed device to the server. The RESOURCE information is sent at user-defined intervals (default is every 5 minutes).
+ 2. Terminates the program when receiving the PID from the server and then updates and sends the RESOURCE information to the server again.
+ 3. Captures and sends a screenshot to the server upon receiving a command from the server.
+
+## Role
+
+In this project, I was responsible for implementing the collector.
+
+## Github Link
+[Capstone Project](https://github.com/jbnu-capstone-jjinjjin/project)

@@ -65,42 +65,19 @@ sections:
       view: article-grid
       columns: 3
     
-  - block: slider
+  - block: carousel
     content:
       slides:
-      - title: Who am I?
-        content: A student with an interest in DevOps
-        align: center
-        background:
-          image:
-            filename: slider/slider1.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: Technologies I've Learned
-        content: 'React, Spring Boot, FastAPI'
-        align: left
-        background:
-          image:
-            filename: slider/slider2.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: Please click the button below to contact me!
-        align: right
-        background:
-          image:
-            filename: slider/slider3.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-        link:
-          text: Contact
-          url: ../contact/
-    design:
-      slide_height: '800px'
-      is_fullscreen: true
+      - image: /media/unsplash/slider1.jpg
+        content_html: "4th year at Jeonbuk National University"
+      - image: /media/unsplash/slider2.jpg
+        content_html: "Department of Computer Engineering"
+      - image: /media/unsplash/slider3.jpg
+        content_html: "Aspiring Backend Developer"
+      - image: /media/unsplash/slider4.jpg
+        content_html: "Hobby is running"
+      duration: 3000
+      items: 1        
+      height: 500   
+      unit: px
 ---

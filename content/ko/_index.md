@@ -67,13 +67,13 @@ sections:
   - block: carousel
     content:
       slides:
-        - image: /media/unsplash/slider1.jpg
+        - image: unsplash/slider1.jpg
           content_html: "전북대학교 4학년"
-        - image: /media/unsplash/slider2.jpg
+        - image: unsplash/slider2.jpg
           content_html: "컴퓨터공학과"
-        - image: /media/unsplash/slider3.jpg
+        - image: unsplash/slider3.jpg
           content_html: "백엔드 개발자 희망"
-        - image: /media/unsplash/slider4.jpg
+        - image: unsplash/slider4.jpg
           content_html: "취미는 러닝"
       duration: 3000
       items: 1        

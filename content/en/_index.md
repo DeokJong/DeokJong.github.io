@@ -68,13 +68,13 @@ sections:
   - block: carousel
     content:
       slides:
-      - image: /media/unsplash/slider1.jpg
+      - image: /unsplash/slider1.jpg
         content_html: "4th year at Jeonbuk National University"
-      - image: /media/unsplash/slider2.jpg
+      - image: /unsplash/slider2.jpg
         content_html: "Department of Computer Engineering"
-      - image: /media/unsplash/slider3.jpg
+      - image: /unsplash/slider3.jpg
         content_html: "Aspiring Backend Developer"
-      - image: /media/unsplash/slider4.jpg
+      - image: /unsplash/slider4.jpg
         content_html: "Hobby is running"
       duration: 3000
       items: 1        

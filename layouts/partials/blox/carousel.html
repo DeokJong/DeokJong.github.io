@@ -3,17 +3,17 @@
 {{ $hash_id := .wcIdentifier }}
 {{ $slide_count := len $block.content.slides }}
 
-<div id="carousel{{ $hash_id }}" class="carousel" duration="{{ $block.content.duration }}"
-  items="{{ $block.content.items }}">
+<div id="carousel{{ $hash_id }}" class="carousel" duration="{{ $block.content.duration }}" items="{{ $block.content.items }}">
   <ul>
     {{ range $index, $slide := $block.content.slides }}
-    <li id="c{{ $hash_id }}_slide{{ add $index 1}}"
-      style="min-width: calc(100%/{{ $block.content.items }}); padding-bottom: {{ $block.content.height }}{{ $block.content.unit }};">
-      <img src="{{ $slide.image }}" alt="" />
+      {{ $bg_img := resources.Get (printf "media/%s" $slide.image) }}
+      {{ if $bg_img }}
+    <li id="c{{ $hash_id }}_slide{{ add $index 1 }}" style="min-width: calc(100%/{{ $block.content.items }}); padding-bottom: {{ $block.content.height }}{{ $block.content.unit }};">
+      <img src="{{ $bg_img.Permalink }}" alt="" />
       <div style="
         display: flex; 
         justify-content: center;
-        ">
+      ">
         <div style="
         display: flex;
         justify-content: center;
@@ -31,6 +31,9 @@
         </div>
       </div>
     </li>
+      {{ else }}
+        {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $slide.image }}
+      {{ end }}
     {{ end }}
   </ul>
   <ol>
@@ -41,6 +44,7 @@
   <div class="prev">&lsaquo;</div>
   <div class="next">&rsaquo;</div>
 </div>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {

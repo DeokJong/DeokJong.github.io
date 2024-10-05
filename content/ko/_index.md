@@ -67,15 +67,15 @@ sections:
   - block: carousel
     content:
       slides:
-        - image: /media/slider/slider1.jpg
-          content_html: "<p>첫 번째 슬라이드 설명</p>"
-        - image: /media/slider/slider2.jpg
-          content_html: "<p>두 번째 슬라이드 설명</p>"
-        - image: /media/slider/slider3.jpg
-          content_html: "<p>세 번째 슬라이드 설명</p>"
-        - image: /media/slider/slider1.jpg
-          content_html: "<p>네 번째 슬라이드 설명</p>"
-      duration: 3000000  
+        - image: /media/unsplash/slider1.jpg
+          content_html: "전북대학교 4학년"
+        - image: /media/unsplash/slider2.jpg
+          content_html: "컴퓨터공학과"
+        - image: /media/unsplash/slider3.jpg
+          content_html: "백엔드 개발자 희망"
+        - image: /media/unsplash/slider4.jpg
+          content_html: "취미는 러닝"
+      duration: 3000
       items: 1        
       height: 500   
       unit: px       

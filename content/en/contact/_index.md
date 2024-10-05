@@ -15,7 +15,7 @@ You can also check out the latest news, events, and support information through 
 - Connect with us on [KakaoTalk Open Chat](https://open.kakao.com/o/sr6MoMRg)!
 
 ## In-Person Consultation  
-We provide consultations at the 7th Engineering Building of Chonbuk National University.  
+We provide consultations at the 7th Engineering Building of Jeonbuk National University.  
 If you'd like an in-person consultation, please make a reservation in advance. Feel free to visit us for more detailed inquiries.
 
 {{< kakaomap latitude="33.450701" longitude="126.570667" level="3" >}}

@@ -64,43 +64,19 @@ sections:
     design:
       view: article-grid
       columns: 3
-    
-  - block: slider
+  - block: carousel
     content:
       slides:
-      - title: 나는 누구인가?
-        content: DevOps에 관심이 많은 학생
-        align: center
-        background:
-          image:
-            filename: slider/slider1.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: 배운 기술
-        content: 'React, Spring Boot, FastAPI'
-        align: left
-        background:
-          image:
-            filename: slider/slider2.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: 저에게 연락하려면 아래의 버튼을 눌러주세요!
-        align: right
-        background:
-          image:
-            filename: slider/slider3.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-        link:
-          text: 연락
-          url: ../contact/
-    design:
-      slide_height: '800px'
-      is_fullscreen: true
+        - image: /media/unsplash/slider1.jpg
+          content_html: "전북대학교 4학년"
+        - image: /media/unsplash/slider2.jpg
+          content_html: "컴퓨터공학과"
+        - image: /media/unsplash/slider3.jpg
+          content_html: "백엔드 개발자 희망"
+        - image: /media/unsplash/slider4.jpg
+          content_html: "취미는 러닝"
+      duration: 3000
+      items: 1        
+      height: 500   
+      unit: px       
 ---

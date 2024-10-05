@@ -42,12 +42,12 @@ interests:
 
 # Education
 education:
-  - area: Currently enrolled at Chonbuk National University
-    institution: Chonbuk National University
+  - area: Currently enrolled at Jeonbuk National University
+    institution: Jeonbuk National University
     date_start: 2019-03-02
     date_end: 2025-02-10
     summary: |
-      I enrolled in the Molecular Biology Department at Chonbuk National University. Later, in my third year, I transferred to the Department of Computer and Artificial Intelligence, where I am currently studying.
+      I enrolled in the Molecular Biology Department at Jeonbuk National University. Later, in my third year, I transferred to the Department of Computer and Artificial Intelligence, where I am currently studying.
 
 # Work Experience
 work:
@@ -155,7 +155,7 @@ awards:
 
 ## Introduction
 
-I am DeokJong Jin, a senior student at Chonbuk National University's Department of Computer and Artificial Intelligence. I have worked on both Backend and Frontend projects and am currently honing my skills as a DevOps developer.
+I am DeokJong Jin, a senior student at Jeonbuk National University's Department of Computer and Artificial Intelligence. I have worked on both Backend and Frontend projects and am currently honing my skills as a DevOps developer.
 
 I have undertaken the following projects:
 

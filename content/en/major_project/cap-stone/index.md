@@ -1,5 +1,5 @@
 ---
-title: 'Chonbuk National University Capstone Project'
+title: 'Jeonbuk National University Capstone Project'
 
 authors:
   - admin
@@ -10,7 +10,7 @@ doi: ''
 publishDate: '2017-01-01T00:00:00Z'
 
 # Summary
-summary: This project was developed during the 2024 Capstone Project for the first semester at Chonbuk National University. It is a project focused on creating a multi-monitoring system.
+summary: This project was developed during the 2024 Capstone Project for the first semester at Jeonbuk National University. It is a project focused on creating a multi-monitoring system.
 
 tags:
   - React
@@ -26,7 +26,7 @@ image:
 ---
 
 # Multi-PC Environment Monitoring and Remote Chat Technology
-- This project was created for the 2024 Chonbuk National University Capstone Project.
+- This project was created for the 2024 Jeonbuk National University Capstone Project.
 
 ## Introduction
 The company that requested this project was facing the following issues:

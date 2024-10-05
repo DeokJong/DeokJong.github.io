@@ -7,31 +7,34 @@ tags:
   - DevOps
 ---
 
+Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It was developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF). As a container orchestration tool, Kubernetes clusters containers across multiple hosts, ensuring the availability and scalability of applications.
 
-Kubernetes는 컨테이너화된 애플리케이션의 배포, 확장 및 관리를 자동화하기 위한 오픈 소스 플랫폼입니다.
-Google에서 개발되었으며, 현재는 Cloud Native Computing Foundation(CNCF)에서 관리하고 있습니다.
-Kubernetes는 컨테이너 오케스트레이션 도구로, 여러 호스트에 걸쳐 컨테이너를 클러스터링하고,
-애플리케이션의 가용성과 확장성을 보장합니다.
- 
+# What is Kubernetes?
 
-# Kubernetes란 무엇인가?
-## 오픈 소스 플랫폼:
-Kubernetes는 누구나 사용할 수 있는 오픈 소스 소프트웨어입니다. 이는 사용자가 소스 코드를 자유롭게 수정하고 배포할 수 있음을 의미합니다.
+## Open-source platform
 
-## 컨테이너화된 애플리케이션:
-컨테이너는 애플리케이션과 그 종속성을 하나의 패키지로 묶어 어디서나 일관되게 실행할 수 있도록 하는 기술입니다. Docker가 대표적인 컨테이너 기술입니다.
-배포, 확장 및 관리 자동화:
+Kubernetes is open-source software, meaning anyone can use, modify, and distribute the source code freely.
 
-Kubernetes는 컨테이너화된 애플리케이션을 자동으로 배포하고, 필요에 따라 확장하며, 지속적으로 관리합니다. 이를 통해 개발자는 인프라 관리에 신경 쓰지 않고 애플리케이션 개발에 집중할 수 있습니다.
+## Containerized applications
 
-## Google에서 개발:
-Kubernetes는 원래 Google에서 내부적으로 사용하던 Borg 시스템을 기반으로 개발되었습니다. 이후 오픈 소스로 공개되어 많은 커뮤니티의 기여를 받고 있습니다.
+Containers package applications with their dependencies, ensuring they run consistently across different environments. Docker is a well-known container technology.
 
-## Cloud Native Computing Foundation(CNCF):
-현재 Kubernetes는 CNCF에서 관리하고 있습니다. CNCF는 클라우드 네이티브 애플리케이션의 개발과 확산을 지원하는 비영리 단체입니다.
+## Automated deployment, scaling, and management
 
-## 컨테이너 오케스트레이션 도구:
-Kubernetes는 여러 호스트에 걸쳐 컨테이너를 클러스터링하고, 이를 통해 애플리케이션의 가용성과 확장성을 보장합니다. 예를 들어, 하나의 서버가 다운되더라도 다른 서버에서 애플리케이션이 계속 실행될 수 있도록 합니다.
+Kubernetes automatically deploys containerized applications, scales them as needed, and continuously manages them. This allows developers to focus on application development without worrying about infrastructure management.
 
-## 요약
-Kubernetes는 컨테이너화된 애플리케이션을 효율적으로 관리하기 위한 강력한 도구입니다. 이를 통해 개발자는 인프라 관리의 복잡성을 줄이고, 애플리케이션의 가용성과 확장성을 쉽게 확보할 수 있습니다.
+## Developed by Google
+
+Kubernetes was originally developed by Google based on their internal Borg system. It was later open-sourced and has since received contributions from a large community.
+
+## Cloud Native Computing Foundation (CNCF)
+
+Kubernetes is now maintained by the CNCF, a nonprofit organization that supports the development and adoption of cloud-native applications.
+
+## Container orchestration tool
+
+Kubernetes clusters containers across multiple hosts, ensuring application availability and scalability. For example, if one server goes down, Kubernetes ensures that the application continues running on other servers.
+
+## Summary
+
+Kubernetes is a powerful tool for efficiently managing containerized applications. It reduces the complexity of infrastructure management while ensuring the availability and scalability of applications.
